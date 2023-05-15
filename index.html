@@ -32,18 +32,34 @@
       </div>
 
       <div class="botao">
-        <button class="azul-escuro">Criptografar</button>
-        <button class="azul-claro">Descriptografar</button>
+        <!-- <button class="botao-azul-escuro">Criptografar</button> -->
+        <button class="botao-azul-escuro" onclick="myFunction()">Criptografar</button>
+        <button class="botao-azul-claro" onclick="myFunction()">Descriptografar</button>
+        <!-- <button class="botao-azul-claro">Descriptografar</button> -->
       </div>
     </div>
 
-    <div class="texto-resultante-caixa">
-      <img src="./assets/img/High quality products 1 1.svg" alt="">
+    <div class="texto-resultante">
+      <div id="myDIV">
+        <img src="./assets/img/High quality products 1 1.svg" alt="">
+      </div>
       <h1>Nenhuma mensagem encontrada</h1>
       <p class="paragrafo-tres">Digite um texto que você deseja criptografar ou descriptografar.</p>
     </div>
 
   </main>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById('myDIV');
+      if (x.style.display === 'none') {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+    }
+  </script>
+
 </body>
 
 </html>
