@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -6,11 +6,13 @@
 body {
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
+  margin: 40px;
 }
 
-.paragrafo-um {
+.texto-digitado {
   color: #0a3871;
   font-size: 32px;
   line-height: 48px;
   font-weight: 400;
-} */
+  border: none;
+}
