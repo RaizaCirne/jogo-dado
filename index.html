@@ -15,51 +15,29 @@
 <body>
   <header>
     <div class="logo">
-      <img src="./assets/img/Vector.svg" alt="">
+      <img class="logo-alura" src="./assets/img/logo.svg" alt="Logo da Alura">
     </div>
   </header>
 
   <main>
+    <section>
+      <input class="input" type="text" name="input" value="Digite seu texto">
 
-    <div>
-      <input type="text" name="input" value="Digite seu texto" class="texto-digitado">
-    </div>
-
-    <section class="botao-caixa">
-      <div>
-        <img src="./assets/img/exclamacao_1.svg" alt="">
-        <p class="paragrafo-dois">Apenas letras minúsculas e sem acento.</p>
+      <div class="info">
+        <p>Apenas letras minúsculas e sem acento.</p>
       </div>
 
-      <div class="botao">
-        <!-- <button class="botao-azul-escuro">Criptografar</button> -->
-        <button class="botao-azul-escuro" onclick="myFunction()">Criptografar</button>
-        <button class="botao-azul-claro" onclick="myFunction()">Descriptografar</button>
-        <!-- <button class="botao-azul-claro">Descriptografar</button> -->
+      <div class="botoes">
+        <button class="botao-criptografar">Criptografar</button>
+        <button class="botao-descriptografar">Descriptografar</button>
       </div>
     </section>
 
-    <section class="texto-resultante">
-      <div id="myDIV">
-        <img src="./assets/img/High quality products 1 1.svg" alt="">
-      </div>
-      <h1>Nenhuma mensagem encontrada</h1>
-      <p class="paragrafo-tres">Digite um texto que você deseja criptografar ou descriptografar.</p>
+    <section>
+      <textarea class="mensagem" cols="20" rows="10"></textarea>
+      <button class="copiar">Copiar</button>
     </section>
-
   </main>
-
-  <script>
-    function myFunction() {
-      var x = document.getElementById('myDIV');
-      if (x.style.display === 'none') {
-        x.style.display = 'block';
-      } else {
-        x.style.display = 'none';
-      }
-    }
-  </script>
-
 </body>
 
 </html>

@@ -1,18 +1,19 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
-  margin: 40px;
+  margin: 40px 40px 40px 84px;
 }
 
-.texto-digitado {
-  color: #0a3871;
+.input {
+  font-weight: 400;
   font-size: 32px;
   line-height: 48px;
-  font-weight: 400;
-  border: none;
+  color: #0a3871;
+  margin-top: 40px;
+  margin-left: 200px;
 }
