@@ -1,1 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  margin: 40px;
+  margin-left: 84px;
+}
+
+main {
+  display: flex;
+}
+
+.input {
+  border: none;
+  background: #e5e5e5;
+  color: #0a3871;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.625rem;
+  margin-top: 76px;
+  margin-left: 156px;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125;
+}
+
+.botao-criptografar {
+  background: #0a3871;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
