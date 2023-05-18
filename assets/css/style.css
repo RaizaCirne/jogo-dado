@@ -20,6 +20,7 @@ main {
   font-weight: 400;
   font-size: 32px;
   line-height: 48px;
+  margin-bottom: 600px;
 }
 
 ::placeholder {
@@ -74,4 +75,21 @@ main {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+}
+
+.mensagem {
+  width: 400px;
+  height: 944px;
+  background: #ffffff;
+  background-image: url(/assets/img/High\ quality\ products\ 1\ 1.svg);
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); */
+  border-radius: 32px;
+  margin-left: 80px;
+  margin-top: 20px;
+  /* position: fixed; */
+}
+
+.mensagem:focus {
+  outline: none;
 }
