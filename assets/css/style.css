@@ -93,3 +93,20 @@ main {
 .mensagem:focus {
   outline: none;
 }
+
+/*Ajeitar distanciamentos e assistir aula de posicion*/
+
+.copiar {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+  /* padding: 32px;
+  gap: 32px; */
+  /* position: absolute;
+  left: -5px; */
+}
+
+
