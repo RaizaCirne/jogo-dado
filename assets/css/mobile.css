@@ -7,7 +7,7 @@
 body {
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .logo {
@@ -91,4 +91,20 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-bottom: 8rem;
+  }
+
+  .principal_botao {
+    flex-direction: row;
+  }
+
+  .botao_criptografar,
+  .botao_descriptografar {
+    margin: 0 auto;
+    width: 60%;
+  }
 }
