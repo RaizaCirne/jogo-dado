@@ -3,41 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Decodificador de texto</title>
+  <title>Decodificador de Texto</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fira+Sans:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="./assets/img/logo.svg" alt="Logo da Alura">
-    </div>
+  <header class="logo">
+    <img src="/assets/img/logo.svg" alt="Logo da Alura">
   </header>
 
   <main>
-    <section>
+    <section class="principal">
+      <input class="principal_input" type="text" placeholder="Digite seu texto">
 
-      <input class="input" placeholder="Digite seu texto">
-
-      <div class="info">
-        <img src="./assets/img/exclamacao.svg" alt="Simbolo de exclamação">
-        <p>Apenas letras minúsculas e sem acento</p>
+      <div class="principal_informacoes">
+        <img src="/assets/img/exclamacao.svg" alt="Ícone de exclamação">
+        <p>Apenas letras minúsculas e sem acento.</p>
       </div>
 
-      <div class="botao">
-        <button type="button" class="botao-criptografar">Criptografar</button>
-        <button type="button" class="botao-descriptografar">Descriptografar</button>
+      <div class="principal_botao">
+        <button type="button" class="botao_criptografar">Criptografar</button>
+        <button type="button" class="botao_descriptografar">Descriptografar</button>
       </div>
-    </section>
 
-    <section>
-      <textarea class="mensagem" cols="20" rows="10"></textarea>
-      <button class="copiar">Copiar</button>
+      <div class="principal_mensagem">
+        <h1>Nenhuma mensagem encontrada</h1>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
     </section>
   </main>
 

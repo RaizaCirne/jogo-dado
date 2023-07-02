@@ -1,0 +1,112 @@
+body {
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  margin-left: 84px;
+  padding-top: 40px;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.input {
+  background: #e5e5e5;
+  border: none;
+  color: #0a3871;
+  margin-top: 80px;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 600px; /*verificar*/
+}
+
+::placeholder {
+  color: #0a3871;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.info {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 16px; /*verificar*/
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+  color: #495057;
+  opacity: 0.8;
+}
+
+.botao {
+  display: flex;
+  margin-top: 16px;
+  gap: 24px;
+}
+
+.botao-criptografar {
+  width: 328px;
+  height: 67px;
+  background: #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+}
+
+.botao-descriptografar {
+  width: 328px;
+  height: 67px;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.mensagem {
+  width: 400px;
+  height: 944px;
+  background: #ffffff;
+  background-image: url(/assets/img/High\ quality\ products\ 1\ 1.svg);
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); */
+  border-radius: 32px;
+  margin-left: 80px;
+  margin-top: 20px;
+  /* position: fixed; */
+}
+
+.mensagem:focus {
+  outline: none;
+}
+
+/*Ajeitar distanciamentos e assistir aula de posicion*/
+
+.copiar {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+  /* padding: 32px;
+  gap: 32px; */
+  /* position: absolute;
+  left: -5px; */
+}
+
+

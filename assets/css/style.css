@@ -1,112 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
-  margin-left: 84px;
-  padding-top: 40px;
+  margin: 2rem;
 }
 
-main {
-  display: flex;
-  margin-bottom: 50px;
-  margin-left: 80px;
+.logo {
+  margin-bottom: 2rem;
 }
 
-.input {
+.principal_input {
   background: #e5e5e5;
-  border: none;
-  color: #0a3871;
-  margin-top: 80px;
-  text-transform: lowercase;
+  font-size: 2rem;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-  margin-bottom: 600px; /*verificar*/
+  border: none;
+  line-height: 3rem;
 }
 
-::placeholder {
+.principal_input::placeholder {
   color: #0a3871;
 }
 
-.input:focus {
-  outline: none;
-}
-
-.info {
+.principal_informacoes {
   display: flex;
+  justify-content: flex-start;
   gap: 8px;
-  padding-bottom: 16px; /*verificar*/
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  font-style: normal;
-  color: #495057;
-  opacity: 0.8;
+  margin-top: 21.875rem;
 }
 
-.botao {
+.principal_informacoes p {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #343a40;
+}
+
+.principal_botao {
   display: flex;
-  margin-top: 16px;
+  flex-direction: column;
   gap: 24px;
+  padding-top: 1rem;
 }
 
-.botao-criptografar {
-  width: 328px;
-  height: 67px;
-  background: #0a3871;
-  border-radius: 24px;
-  color: #ffffff;
-  font-style: normal;
+.botao_criptografar,
+.botao_descriptografar {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.21rem;
   text-align: center;
-  border: none;
 }
 
-.botao-descriptografar {
-  width: 328px;
-  height: 67px;
-  background: #d8dfe8;
+.botao_criptografar {
+  background-color: #0a3871;
+  color: #fff;
+}
+
+.botao_descriptografar {
+  background-color: #e5e5e5;
   border: 1px solid #0a3871;
-  border-radius: 24px;
   color: #0a3871;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
 }
 
-.mensagem {
-  width: 400px;
-  height: 944px;
-  background: #ffffff;
-  background-image: url(/assets/img/High\ quality\ products\ 1\ 1.svg);
-  background-repeat: no-repeat;
-  /* box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); */
+.principal_mensagem {
+  background-color: #fff;
+  padding: 2rem;
   border-radius: 32px;
-  margin-left: 80px;
-  margin-top: 20px;
-  /* position: fixed; */
+  margin-top: 4.375rem;
+  margin-bottom: 3.125rem;
 }
 
-.mensagem:focus {
-  outline: none;
-}
-
-/*Ajeitar distanciamentos e assistir aula de posicion*/
-
-.copiar {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+.principal_mensagem h1 {
+  color: #343a40;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   text-align: center;
-  color: #0a3871;
-  /* padding: 32px;
-  gap: 32px; */
-  /* position: absolute;
-  left: -5px; */
+  margin-bottom: 1rem;
 }
 
+.principal_mensagem p {
+  color: #495057;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
 
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-bottom: 8rem;
+  }
+
+  .principal_botao {
+    flex-direction: row;
+  }
+
+  .botao_criptografar,
+  .botao_descriptografar {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
