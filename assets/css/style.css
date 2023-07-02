@@ -5,17 +5,25 @@
 }
 
 body {
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background: #f3f5fc;
   font-family: "Inter", sans-serif;
-  margin: 2rem;
+  margin: 0 auto;
 }
 
 .logo {
   margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.principal {
+  margin-left: 1.5rem;
 }
 
 .principal_input {
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background: #f3f5fc;
   font-size: 2rem;
   font-weight: 400;
   border: none;
@@ -68,15 +76,16 @@ body {
   color: #0a3871;
 }
 
-.principal_mensagem {
+.mensagem {
   background-color: #fff;
-  padding: 2rem;
-  border-radius: 32px;
+  padding: 1rem;
+  border-radius: 2rem;
   margin-top: 4.375rem;
   margin-bottom: 3.125rem;
+  margin-left: 1.5rem;
 }
 
-.principal_mensagem h1 {
+.mensagem h1 {
   color: #343a40;
   font-weight: 700;
   font-size: 1.5rem;
@@ -85,7 +94,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.principal_mensagem p {
+.mensagem p {
   color: #495057;
   font-weight: 400;
   font-size: 1rem;
@@ -94,6 +103,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    margin: 2rem;
+  }
   .logo {
     margin-bottom: 8rem;
   }
@@ -106,5 +118,54 @@ body {
   .botao_descriptografar {
     margin: 0 auto;
     width: 60%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .principal {
+    width: 100%;
+    margin-left: 10rem;
+  }
+
+  .principal_input {
+    margin-top: 3rem;
+    margin-bottom: 18.75rem;
+  }
+
+  .principal_botao {
+    width: 90%;
+  }
+
+  .botao_descriptografar {
+    background-color: #d8dfe8;
+  }
+
+  .mensagem {
+    background-image: url(/assets/img/High\ quality\ products\ 1\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    border-radius: 2rem;
+    text-align: center;
+    /* max-width: 100%; */
+    height: 59rem;
+    position: relative;
+    top: -7.5rem;
+    padding: 3.75rem;
+    margin-left: 1.875rem;
+  }
+
+  .mensagem_conteudo {
+    position: relative;
+    top: 33.125rem;
   }
 }
