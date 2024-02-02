@@ -19,7 +19,7 @@
 
 ## 🚀 Proposta <a name="id02"></a>
 
-Este projeto é um jogo de dados feito através de JavaScript.
+Este projeto é um jogo de dado feito através de JavaScript.
 <br />
 
 ## :trophy: Desafio <a name="#id03"></a>
