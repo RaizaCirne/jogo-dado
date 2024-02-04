@@ -16,6 +16,13 @@ function alteraImg() {
 }
 }
 
+
+
+// const btn = document.getElementById('button');
+// btn.addEventListener('click', function () {
+//   alteraImg();
+// })
+
 switch(sorteio) {
   case 1: 
     alteraImg();
