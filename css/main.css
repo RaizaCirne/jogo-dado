@@ -5,11 +5,37 @@
 }
 
 body {
-  background-color: green;
+  background-image: url(/assets/images/papel-de-parede-jogo-08.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
-body div {
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .container img {
+  width: 250px;
+}
+body .container div {
   text-align: center;
 }
-body div img {
-  width: 180px;
+body .container div .botao {
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  width: 100%;
+}
+body .container div .botao:hover {
+  background-color: #4d6f56;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

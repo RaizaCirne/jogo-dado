@@ -1,5 +1,7 @@
 function alteraImg() {
+  
   let sorteio = parseInt(Math.random() * 6 + 1);
+
   switch(sorteio) {
     case 1: 
       document.getElementById('imagem-dado').src='assets/images/face1.png';
