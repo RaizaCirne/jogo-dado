@@ -24,7 +24,7 @@ Este projeto é um jogo de dado feito através de JavaScript.
 
 ## :trophy: Desafio <a name="#id03"></a>
 
-Trabalhar com o objeto Math para gerar números aleatórios no JavaScript e também usar a estrutura de controle if else e switch case.
+Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, trabalhar com a manipulação do DOM e utilizar a estrutura Switch Case.
 
 ## :trophy: Aprendizado <a name="#id04"></a>
 
@@ -34,7 +34,6 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript e tamb
 
 - JavaScript
 - Estruturas de controle
-- Estruturas condicionais
 - Document Object Model (DOM)
 - SASS
 
