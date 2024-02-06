@@ -37,7 +37,7 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, traba
 - Document Object Model (DOM)
 - SASS
 
-<!-- ## :trophy: Prosseguimento <a name="id05"></a>
+## :trophy: Prosseguimento <a name="id05"></a>
 
 - Realizar outros projetos utilizando o React.js
 
@@ -47,15 +47,15 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, traba
 
 ## :video_camera: Video
 
-https://github.com/RaizaCirne/app-flex/assets/109912543/41c4c6eb-770d-4e05-92a4-f4916585bf3f
+https://github.com/RaizaCirne/jogo-dado/assets/109912543/845fbca6-3baf-4f74-8c42-915b5aed67e3
 
 ## :desktop_computer: Desktop design
 
-![Design preview desktop](./assets/images/calculadora-desktop.png)
+![Design preview desktop](./assets/images/jogo-dado-desktop.png)
 
 ## :iphone: Mobile design
 
-![Design preview desktop](./assets/images/calculadora-mobile.png) -->
+![Design preview desktop](./assets/images/jogo-dado-mobile.png)
 
 <br />
 
