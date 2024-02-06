@@ -47,8 +47,6 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, traba
 
 ## :video_camera: Video
 
-<<<<<<< HEAD
-=======
 https://github.com/RaizaCirne/jogo-dado/assets/109912543/845fbca6-3baf-4f74-8c42-915b5aed67e3
 
 >>>>>>> c20a4df90ed1ba0974ad73588da7cc1cb3727f76
