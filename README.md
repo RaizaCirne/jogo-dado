@@ -37,7 +37,7 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, traba
 - Document Object Model (DOM)
 - SASS
 
-<!-- ## :trophy: Prosseguimento <a name="id05"></a>
+## :trophy: Prosseguimento <a name="id05"></a>
 
 - Realizar outros projetos utilizando o React.js
 
@@ -47,15 +47,13 @@ Trabalhar com o objeto Math para gerar números aleatórios no JavaScript, traba
 
 ## :video_camera: Video
 
-https://github.com/RaizaCirne/app-flex/assets/109912543/41c4c6eb-770d-4e05-92a4-f4916585bf3f
-
 ## :desktop_computer: Desktop design
 
-![Design preview desktop](./assets/images/calculadora-desktop.png)
+![Design preview desktop](./assets/images/jogo-dado-desktop.png)
 
 ## :iphone: Mobile design
 
-![Design preview desktop](./assets/images/calculadora-mobile.png) -->
+![Design preview desktop](./assets/images/jogo-dado-mobile.png)
 
 <br />
 
@@ -63,7 +61,7 @@ https://github.com/RaizaCirne/app-flex/assets/109912543/41c4c6eb-770d-4e05-92a4-
 
 <br />
 
-- Para acessar o site [Clique aqui](#)
+- Para acessar o site [Clique aqui](https://jovial-mooncake-077847.netlify.app/)
 
 <br />
 
@@ -109,7 +107,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](#)
+- Personal Page - [Raíza Cirne Braz](https://jovial-mooncake-077847.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
